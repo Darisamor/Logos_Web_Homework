@@ -1,0 +1,39 @@
+body{
+    background-image: url("bg.jpg");
+}
+
+p{
+    font-size: 25px;
+    color: white;
+    font-style: italic;
+    text-decoration: underline blink;
+}
+
+div.main{
+    height: 400px;
+    width: 45%;
+    background-color:rgb(255, 182, 219);
+    border-style: double;
+    float: right;
+}
+
+.main p{
+    text-decoration: unset;
+    font-style: unset;
+    color: white;
+    text-align: center;
+    color: blue
+}
+
+.main div{
+    color: red;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.main .text1{
+    /* higher priority */
+    font-style: italic;
+    color: black;
+    font-size: 17px;
+}
