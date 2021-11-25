@@ -1,0 +1,38 @@
+body{
+    background-color:lightskyblue;    
+    font-size: 15px;
+}
+
+header{
+    background-color: yellow;
+}
+
+header a{
+    height: 50px;
+    width: 19.65%;
+    display: inline-block;
+    border: black 1px;
+    border-style: solid;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+}
+
+.main_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+
+}
+
+.title{
+    display: flex;
+}
+
+div.text p{
+    font-size: 150%;
+    font-weight: bolder;
+    color: blue;
+    margin: 10px 0;
+}

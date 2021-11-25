@@ -1,0 +1,26 @@
+.table1{
+    padding: 50px;
+}
+
+.table1 .tg{    
+    width: 500px;
+    height: 300px;
+}
+  
+.table1 .tg .tg-pb0m{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:bottom;
+}
+  
+.table1 .tg .tg-9wq8{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:middle;    
+}
+  
+.table1 .tg .tg-nrix{
+    text-align:center;
+    vertical-align:middle;
+    height: 30px;
+}

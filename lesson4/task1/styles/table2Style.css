@@ -1,0 +1,25 @@
+.table2{
+    padding: 50px;
+}
+
+.table2 .tg th{
+    width: 150px;
+    height: 15px;    
+}
+
+.tg .tg-gyu3{
+    border-color:inherit;
+    font-family:Arial, sans-serif !important;;
+    font-size:14px;
+    text-align:left;
+    vertical-align:top
+}
+
+.tg .tg-bwaa{
+    background-color:#fffe65;
+    border-color:inherit;
+    font-family:Arial, sans-serif !important;;
+    font-size:14px;
+    text-align:left;
+    vertical-align:top
+}
