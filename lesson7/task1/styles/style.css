@@ -1,0 +1,137 @@
+@import url(../../../reset.css);
+
+body{
+    background-image: url("../images/bg.jpg");
+    color: #b9b9b9;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+}
+
+body main.main{
+    background-image: url("../images/form-bg.png");
+    width: 608px;
+    height: 353px;
+    margin-top: 15%;
+}
+
+div#main{
+    width: 560px;
+    height: 250px;
+    padding: 95px 24px 8px 24px;
+}
+
+span.log_in{
+    color: #000;
+    font-weight: bold;
+}
+
+span.sing_up{
+    color: #2944ab;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+div.enter{
+    font-size: 15px;
+    display: flex;
+}
+
+div.enter div{
+    width: 270px;
+}
+
+span.fb{
+    color: #2944ab;
+}
+
+span.tw{
+    color: #30cad0;
+}
+
+div#verticalLine {
+    border-left: 1px solid #b9b9b9;
+    width: 1px;
+    margin-right: 20px;
+}
+
+div.n_buttons button{
+    font-size: 15px;
+    margin: 10px 15px;
+    width: 230px;
+    height: 40px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    box-shadow: unset;
+    border:unset
+}
+
+div.n_buttons img{
+    padding-right: 10px;
+    padding-left: 5px;
+    margin: 0px;
+    float: left;
+}
+
+div.n_buttons button.fb{
+    background: linear-gradient(#668dc8, #4870ab);
+}
+
+div.n_buttons button.tw{
+    background: linear-gradient(#53d0d5, #36b3b8);
+}
+
+div.sing_up{
+    display: flex;
+    flex-direction: column;
+}
+
+div.sing_up input{
+    font-size: 15px;
+    margin: 10px 15px;
+    width: 200px;
+    height: 27px;
+    border-radius: 8px;
+    border: #b9b9b9 1px solid;
+    box-shadow: unset;
+}
+
+div.sing_up input#account{
+    background: url(../images/user-icon.png) no-repeat 6px 4px;
+    background-color: #ebebeb;
+}
+
+div.sing_up input#account:focus{
+    background: unset;
+    background-color: #ebebeb;
+}
+
+div.sing_up input#password{
+    background: url(../images/password-icon.png) no-repeat 8px 3px;
+    background-color: #ebebeb;
+}
+
+div.sing_up input#password:focus{
+    background: unset;
+    background-color: #ebebeb;
+}
+
+div.sing_up button.log_in{
+    font-size: 15px;
+    margin: 10px 15px;
+    width: 80px;
+    height: 35px;
+    border-radius: 12px;
+    float: right;
+    margin-right: 50px;
+    background: linear-gradient(#fad965, #d1b03d);     
+}
+
+div.sing_up a.forgot{
+    float: right;
+    color: #b9b9b9;
+    text-align: right;    
+    margin-right: 50px;
+}
