@@ -1,0 +1,38 @@
+body{
+    font-size: 35px;
+}
+
+body div{
+    border: black solid 1px;
+}
+
+.list1 li:hover{
+    cursor: pointer;
+    color: red;
+}
+
+div ul li span{
+    color: black;
+}
+
+.list2{
+    list-style-image: url(images/logo1.1.svg);
+    padding-left: 55px;
+}
+
+.list2 li:hover{
+    list-style-image: url(images/logo1.2.svg);
+    cursor: progress;
+    /* Unfortunately I can set color on this icon(( */
+}
+
+.list3 li{
+    color: blue;
+}
+
+.list3 li:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;    
+    cursor:cell;
+}
