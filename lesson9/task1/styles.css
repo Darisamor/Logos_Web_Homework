@@ -51,7 +51,11 @@ main p{
 }
 
 div.images div{
-    display: inline-block;
+    /* display: inline-block; */
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row wrap;
     height: 400px;
     width: 300px;
     text-align: right;
