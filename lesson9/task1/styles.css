@@ -50,12 +50,16 @@ main p{
     font-size: 24px;
 }
 
-div.images div{
-    /* display: inline-block; */
+div.images{
     display: flex;
     /* flex-direction: row;
     flex-wrap: wrap; */
     flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+div.images div{
+    /* display: inline-block; */
     height: 400px;
     width: 300px;
     text-align: right;
