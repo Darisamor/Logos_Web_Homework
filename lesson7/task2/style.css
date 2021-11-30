@@ -1,0 +1,163 @@
+@import url(../../reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@font-face {
+    font-family: "AkzidenzGrotesk Black";
+    src: url(fonts/FontsFree-Net-Akzidenz-Grotesk-Black.ttf);
+}
+
+body{
+    background: url("images/bg.jpg") no-repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+main.main{
+    width: 400px;
+    height: 700px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+main div.title{
+    font-family: "AkzidenzGrotesk Black";
+    font-size: 50px;
+    color: #00264d;
+}
+
+div.buttons{
+    margin: 20px 50px;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+    height: 40px;
+}
+
+div.buttons button{
+    width: 180px;
+    height: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: white;
+    border: unset;
+    box-shadow: 2px 2px 2px #888888;
+    margin-inline: 2px;
+    vertical-align: top;    
+    border-radius: 6px;
+}
+
+div.buttons button img{
+    padding-left: 5px;
+    padding-right: 15px;
+    float: left;
+    border-right: black solid 1px;
+}
+
+div.buttons button.fb{
+    background: linear-gradient(#0d76be, #0d63ab);
+}
+
+div.buttons button.tw{
+    background: linear-gradient(#57d5ff, #17ade0);
+}
+
+div.or{
+    width: 20%; 
+    height: 8px; 
+    border-bottom: 1px solid grey; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.or{
+    font-size: 16px; 
+    background-color: grey;
+    border-radius: 200%;
+    padding: 0 10px;
+}
+
+div.account{
+    margin-top: 20px;
+}
+
+div.account input{
+    width: 360px;
+    height: 35px;
+    margin-top: 20px;
+    padding-left: 10px;
+    background-color: #ebebeb;
+    color: #797979;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.account input:focus{
+    color: #007eff;
+    border:#007eff solid;
+    box-shadow: 2px 2px 2px 2px white;
+    outline: none;
+}
+
+div.account input#username{
+    background-image: url("images/user-icon.png");
+    background-repeat:  no-repeat;
+    background-color: #ebebeb;
+    background-position-x: 340px;
+    background-position-y: center;
+}
+
+div.account input#username:focus{
+    background-image: url("images/user-icon-active.png");
+}
+
+div.account input#password{
+    background-image: url("images/password-icon.png");
+    background-repeat:  no-repeat;
+    background-color: #ebebeb;
+    background-position-x: 340px;
+    background-position-y: center;
+}
+
+div.account input#password:focus{
+    background-image: url("images/password-icon-active.png");
+}
+
+div.check{
+    margin-top: 30px;
+    width: 360px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+div.check div.forgot{
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button.login{
+    margin-top: 25px;
+    width: 360px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #254e77;
+}
+
+div.registration{
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+div.registration a{
+    color:blue;
+    text-decoration: unset;
+}
