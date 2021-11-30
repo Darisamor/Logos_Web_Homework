@@ -1,0 +1,309 @@
+@import url(../../reset.css);
+
+span.red{
+    color: rgb(150, 0, 0);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body main{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 200px;
+    background-color: rgb(201, 200, 200);
+}
+
+body a{
+    color: rgb(150, 0, 0);
+}
+
+body ul li{    
+    list-style-type:disc;
+    margin-left: 25px;
+}
+
+body ol li{
+    list-style-type: decimal;
+    margin-left: 25px;
+}
+
+header{
+    background-color:rgb(26, 26, 26);
+    color: rgba(255, 255, 255, 0.712);
+    width: 100%;
+    height: 90px;
+}
+
+div.logo{
+    margin-left: 11%;
+    padding-top: 15px;
+    width: 40%;
+}
+
+p.title{
+    font-size: 200%;
+}
+
+header div.search{
+    float: right;
+    margin-top: -45px;
+    margin-right: 11%;
+}
+
+div.search input{
+    border-radius: 5px;
+    background-color: rgb(19, 19, 19);
+    color: rgba(255, 255, 255, 0.712);
+    border: rgb(180, 54, 92) solid 1px;
+    height: 32px;
+    width: 175px;
+    vertical-align: bottom;
+    padding: 0px;
+    padding-left: 25px;
+}
+
+div.search button{    
+    background-color: rgb(180, 54, 92);
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+}
+
+div.search img{
+    width: 15px;
+    height: 15px;
+}
+
+section.head{
+    height: 200px;
+    background: url("images/header.jpg") no-repeat;
+    background-size: 100%;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+section.head div.head_info{
+    padding: 30px 0px 20px 20px;
+}
+
+section.head p.head_info{
+    color: #000;
+}
+
+section.head div.head_info h3{
+    margin-top: 10px;
+    size: 120%;
+    font-weight: bold;
+}
+
+section.head div.head_info div{
+    padding-top: 10px;
+    width: 400px;
+}
+
+nav div.nav{
+    background-color: rgb(150, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: right;
+    height: 40px;
+    font-size: 120%;
+}
+
+nav div.nav div{
+    margin: 10px;
+    width: 80px;
+}
+
+nav div.pages{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(179, 179, 179);
+}
+
+div.main{
+    display: flex;
+    background-color: white;
+    padding: 15px;
+}
+
+div.main aside{
+    width: 20%;
+}
+
+div.main aside div.contact h3{
+    font-size: 110%;
+    font-weight: bold;
+}
+
+div.main aside div.contact{
+    background-color: rgb(200, 200, 200);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+div.main aside div.contact input{
+    background-color: rgb(170, 170, 170);
+    color: rgb(61, 61, 61);
+    margin-top: 10px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+div.main aside div.contact select{
+    background-color: rgb(170, 170, 170);
+    color: rgb(61, 61, 61);
+    margin-top: 10px;
+    height: 26px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+div.main aside div.contact button{
+    background-color: rgb(150, 0, 0);
+    width: 80%;
+    height: 30px;
+    padding: 5px;
+    margin-top: 25px;
+    border-radius: 5px;
+    color: rgb(170, 170, 170);
+    margin-left: 10%;
+}
+
+div.main aside div.headline h3{
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+div.main aside div.headline{
+    color: rgb(170, 170, 170);
+}
+
+div.main article{
+    width: 95%;
+    margin-left: 2%;
+    color: rgb(170, 170, 170);
+}
+
+article h2{
+    font-size: 150%;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+div.images{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+}
+
+div.lists{
+    display: flex;
+}
+
+div.lists p.list_title{
+    margin-bottom: 3px;
+    font-weight: bolder;
+}
+
+div.lists div{
+    width: 30%;
+    margin-left: 2%;
+    width: 100%;
+}
+
+table{
+    background-color:rgb(26, 26, 26);
+    color: rgba(255, 255, 255, 0.712);
+    margin-bottom: 20px;
+}
+
+table.tg th, table.tg td{
+    border-color:rgb(170, 170, 170);
+    border-style:solid;
+    border-width:1px;
+    height: 30px;
+    padding: 0px 4px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.tg th{
+    background-color: rgb(150, 0, 0);
+}
+
+.tg .tg-num{
+    text-align: center;
+    width: 30px;
+}
+
+.tg .tg-sec{
+    width: 150px;
+}
+
+.tg .tg-mid{
+    width: 220px;
+}
+
+footer{
+    background-color:rgb(26, 26, 26);
+    color: rgba(255, 255, 255, 0.685);
+    width: 100%;
+    height: 200px;
+    border-top: rgb(150, 0, 0) solid 10px;
+    padding-left: 10%;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer div.footer div div{
+    width: 100%;
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.527);
+}
+
+footer div.footer div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 10px;
+    width: 25%;
+}
+
+footer h2{
+    size: 120%;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: rgba(255, 255, 255, 0.692) solid 1px;
+}
+
+footer div.hours img{
+    background-color: rgb(150, 0, 0);
+    border-radius: 100%;
+    margin-left: 15px;
+}
+
+footer div.local li{
+    color:rgb(150, 0, 0);
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+
+footer div.local span{
+    color: rgba(255, 255, 255, 0.692);
+}
+
+footer div.local p{
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+footer div.la{
+    line-height: 1.2;
+}
